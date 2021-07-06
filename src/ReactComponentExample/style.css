@@ -1,0 +1,37 @@
+#react-component-container {
+    width: auto;
+    height: 100vh;
+    display: flex;
+}
+
+.anonymous-function-component>h1,
+.class-component>h1,
+.function-component>h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.anonymous-function-component,
+.class-component,
+.function-component {
+    text-align: center;
+    height: 100vh;
+}
+
+.anonymous-function-component {
+    background-color: #ECD662;
+}
+
+.class-component {
+
+    background-color: #FEF7DC;
+}
+.function-component {
+    background-color: #2541B2;
+}
+
+img {
+    width: 200px;
+    position: relative;
+    top: 40%;
+}
